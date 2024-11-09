@@ -20,7 +20,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 
-#include "/usr/src/sys/dev/usb/ujoyio.h"
+#include <dev/usb/ujoyio.h>
 
 int main(int argc, char** argv) {
 	struct ujoy_rumble ur = { GIP_MOTOR_ALL, 0x32, 0x32, 0x32,
